@@ -13,7 +13,7 @@ dataset = pd.read_csv('estudantes.csv')
 
 # título
 st.title("Visualização de Dados - Predição de Notas de Matemática")
-st.subtitle("Aluno: Bruno Silva do Prado Reis")
+st.markdown("Aluno: Bruno Silva do Prado Reis")
 
 # mapeando dados do usuário para cada atributo
 nota_leitura = st.sidebar.number_input("Nota de Leitura")
